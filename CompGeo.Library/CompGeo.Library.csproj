@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConvexHullByGrahamsScan2D.cs" />
+    <Compile Include="DataStructures\BinaryHeap.cs" />
+    <Compile Include="DataStructures\MinMax.cs" />
     <Compile Include="GeometryUtility.cs" />
     <Compile Include="IConvexHull2D.cs" />
     <Compile Include="Primitives\Point2D.cs" />
@@ -49,6 +51,7 @@
     <Compile Include="Primitives\Polygon2D.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
